@@ -44,6 +44,8 @@
     height: 200px;
     float: left;
     position: relative;
+    padding-top: 8px;
+    padding-left: 12px;
 }
 .a {
     margin-left: 30px;
@@ -54,25 +56,25 @@
 .charactera {
     width: 1px;
     height: 100px;
-    border-left: 5px solid black;
+    border-left: 3px solid black;
     transform: skew(35deg);
     -webkit-transform: skew(35deg);
     -moz-transform: skew(20deg);
     -o-transform: skew(20deg);
     position: relative;
-    left: 74px;
+    left: 72px;
 }
 .charactera1 {
     width: 1px;
     height: 100px;
-    border-left: 5px solid black;
+    border-left: 3px solid black;
     transform: skew(-35deg);
     -webkit-transform: skew(-35deg);
     -moz-transform: skew(-20deg);
     -o-transform: skew(-20deg);
 }
 .characterba2 {
-    border-top: 5px solid black;
+    border-top: 3px solid black;
     width: 100px;
     position: relative;
     top: 70px;
@@ -93,15 +95,7 @@
     top: 46px;
     left: -25px;
 }
-.characterc {
-    width: 25px;
-    height: 50px;
-    border: 3px solid black;
-    border-radius: 0px 50px 50px 0px;
-    position: relative;
-    top: 46px;
-    left: -25px;
-}
+
 .characterc {
     width: 50px;
     height: 100px;
@@ -160,7 +154,24 @@
 .characteri {
     width: 3px;
     height: 100px;
-    background-color: black;
+    border-left: 3px solid black;
+}
+
+.characterj {
+    width: 66px;
+    height: 79px;
+    border-right: 3px solid black;
+}
+.characterj1 {
+    width: 50px;
+    height: 38px;
+    border: 3px solid black;
+    border-top: 0;
+    position: relative;
+    left: -50px;
+    top: 65px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .characterk1 {
     width: 3px;
@@ -189,10 +200,353 @@
     top: 48px;
 }
 .characterl1 {
-     width: 60px;
-     height: 100px;
-     border-left: 3px solid black;
-     position: relative;
-     left: -24px;
-     border-bottom: 3px solid black;
+    width: 60px;
+    height: 100px;
+    border-left: 3px solid black;
+    position: relative;
+    left: -24px;
+    border-bottom: 3px solid black;
+}
+.characterg {
+    width: 50px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50px 0px 0px 50px;
+    position: relative;
+    top: 2px;
+    left: -12px;
+    border-right: 0;
+}
+
+.characterg1 {
+    width: 35px;
+    height: 50px;
+    border: 3px solid black;
+    border-bottom: 0;
+    position: relative;
+    left: -47px;
+    top: 51px;
+    border-left: 0;
+}
+.characterm, .charactern {
+    width: 100px;
+    height: 100px;
+    border-left: 3px solid black;
+    position: relative;
+    left: 0;
+    border-right: 3px solid black;
+}
+.characterm1 {
+    width: 1px;
+    height: 51px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    left: -26px;
+}
+.characterm2 {
+    width: 1px;
+    height: 52px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    left: -78px;
+}
+
+.charactern1 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-44deg);
+    -webkit-transform: skew(44deg);
+    -moz-transform: skew(-44deg);
+    -o-transform: skew(-44deg);
+    position: relative;
+    left: -52px;
+}
+.charactero {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.characterp {
+    width: 40px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 0px 50px 50px 0px;
+}
+.characterp1 {
+    width: 30px;
+    height: 50px;
+    border-left: 3px solid black;
+    position: relative;
+    top: 46px;
+    left: -40px;
+}
+.characterq {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.characterq1 {
+    width: 20px;
+    height: 50px;
+    border-left: 3px solid black;
+    transform: skew(45deg);
+    position: relative;
+    top: 68px;
+    left: -32px;
+}
+.characterr2 {
+    width: 17px;
+    height: 45px;
+    border-left: 3px solid black;
+    transform: skew(45deg);
+    position: relative;
+    top: 47px;
+    left: -32px;
+}
+
+
+
+.characters {
+    position: relative;
+    width: 220px;
+    height: 100px;
+    float: left;
+    transform: rotate(90deg);
+}
+
+.characters:before,
+.characters:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    -moz-border-radius: 50px 50px 0 50px;
+    border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.characters:after {
+    left: 120px;
+    right: 52px;
+    -moz-border-radius: 50px 50px 50px 0;
+    border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-left: 0px solid;
+    border-bottom: 0px solid;
+    border-left: 3px solid black;
+    position: absolute;
+}
+
+.infinity:before {
+    -moz-border-radius: 50px 50px 50px 0;
+    border-radius: 50px 50px 50px 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-left: 0px solid;
+    border-bottom: 0px solid;
+    /* border-bottom: 3px solid black; */
+    /* border-top: 3px solid black; */
+    border-left: 3px solid black;
+    /* border-right: 3px solid black; */
+    top: -15px;
+    left: 38px;
+    transform: rotate(240deg);
+}
+
+
+
+.charactert {
+    width: 100px;
+    height: 3px;
+    border-top: 3px solid black;
+    border-right: 0;
+}
+.charactert1 {
+    width: 3px;
+    height: 100px;
+    border: 3px solid black;
+    border-right: 0;
+    position: relative;
+    left: -50px;
+    top: 0;
+    border-top: 0;
+}
+.characteru {
+    width: 50px;
+    height: 52px;
+    border: 3px solid black;
+    border-top: 0;
+    position: relative;
+    left: 20px;
+    border-bottom: 0;
+}
+.characteru1 {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    position: relative;
+    left: -30px;
+    top: 46px;
+    border-top: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.characterv{
+    width: 80px;
+    height: 100px;
+}
+.characterv1 {
+    width: 3px;
+    height: 70px;
+    border-left: 3px solid black;
+    transform: skew(-36deg);
+    -webkit-transform: skew(-36deg);
+    -moz-transform: skew(-36deg);
+    -o-transform: skew(-36deg);
+    position: relative;
+    left: -26px;
+}
+.characterv2 {
+    width: 1px;
+    height: 70px;
+    border-left: 3px solid black;
+    transform: skew(-36deg);
+    -webkit-transform: skew(36deg);
+    -moz-transform: skew(-36deg);
+    -o-transform: skew(-36deg);
+    position: relative;
+    left: -78px;
+}
+.characterx {
+    width: 60px;
+    height: 100px;
+}
+.characterx1 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+}
+.characterx2 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+}
+
+.charactery {
+    width: 60px;
+    height: 75px;
+    border-left: 3px solid black;
+    position: relative;
+    left: 60px;
+    top: 38px;
+}
+.charactery1 {
+    width: 1px;
+    height: 40px;
+    border-left: 3px solid black;
+    transform: skew(-55deg);
+    -webkit-transform: skew(-55deg);
+    -moz-transform: skew(-55deg);
+    -o-transform: skew(-55deg);
+    position: relative;
+    left: 28px;
+}
+.charactery2 {
+    width: 1px;
+    height: 40px;
+    border-left: 3px solid black;
+    transform: skew(-55deg);
+    -webkit-transform: skew(55deg);
+    -moz-transform: skew(-55deg);
+    -o-transform: skew(-55deg);
+    position: relative;
+    left: -30px;
+}
+.y,.x,.w {
+    width: 135px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    height: 100px;
+}
+.characterz {
+    width: 100px;
+    height: 100px;
+    border-top: 3px solid black;
+    position: relative;
+    left: 0;
+    border-bottom: 3px solid black;
+}
+.characterz1 {
+    width: 1px;
+    height: 100px;
+    border-left: 3px solid black;
+    transform: skew(-44deg);
+    -webkit-transform: skew(-46deg);
+    -moz-transform: skew(-44deg);
+    -o-transform: skew(-44deg);
+    position: relative;
+    left: -52px;
+}
+.characterw {
+    width: 100px;
+    height: 100px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+.characterw1 {
+    width: 1px;
+    height: 89px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(-44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    left: -95px;
+    top: 50px;
+}
+.characterw2 {
+    width: 1px;
+    height: 70px;
+    border-left: 3px solid black;
+    transform: skew(-40deg);
+    -webkit-transform: skew(44deg);
+    -moz-transform: skew(-40deg);
+    -o-transform: skew(-40deg);
+    position: relative;
+    top: 48px;
+    left: -22px;
 }
