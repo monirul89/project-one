@@ -57,8 +57,8 @@
     width: 1px;
     height: 100px;
     border-left: 3px solid black;
-    transform: skew(35deg);
-    -webkit-transform: skew(35deg);
+    transform: skew(20deg);
+    -webkit-transform: skew(20deg);
     -moz-transform: skew(20deg);
     -o-transform: skew(20deg);
     position: relative;
@@ -68,46 +68,50 @@
     width: 1px;
     height: 100px;
     border-left: 3px solid black;
-    transform: skew(-35deg);
-    -webkit-transform: skew(-35deg);
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
     -o-transform: skew(-20deg);
-}
-.characterba2 {
-    border-top: 3px solid black;
-    width: 100px;
+    left: 32px;
     position: relative;
-    top: 70px;
-    left: -18px;
+}
+.charactera2 {
+    border-top: 3px solid black;
+    width: 43px;
+    position: relative;
+    top: 55px;
+    left: 27px;
 }
 .characterb {
-    width: 25px;
+    width: 33px;
     height: 50px;
     border: 3px solid black;
     border-radius: 0px 50px 50px 0px;
+    position: relative;
+    left: 35px;
 }
 .characterb1 {
-    width: 25px;
+    width: 33px;
     height: 50px;
     border: 3px solid black;
     border-radius: 0px 50px 50px 0px;
     position: relative;
     top: 46px;
-    left: -25px;
+    left: 2px;
 }
 
 .characterc {
-    width: 50px;
-    height: 100px;
+    width: 56px;
+    height: 96px;
     border: 3px solid black;
     border-radius: 50px 0px 0px 50px;
     position: relative;
     top: 2px;
-    left: -12px;
+    left: 0;
     border-right: 0;
 }
 .characterd {
-    width: 50px;
+    width: 60px;
     height: 100px;
     border: 3px solid black;
     border-radius: 0px 50px 50px 0px;
@@ -209,12 +213,12 @@
 }
 .characterg {
     width: 50px;
-    height: 100px;
+    height: 98px;
     border: 3px solid black;
     border-radius: 50px 0px 0px 50px;
     position: relative;
     top: 2px;
-    left: -12px;
+    left: 0;
     border-right: 0;
 }
 
@@ -224,12 +228,12 @@
     border: 3px solid black;
     border-bottom: 0;
     position: relative;
-    left: -47px;
+    left: -35px;
     top: 51px;
     border-left: 0;
 }
 .characterm, .charactern {
-    width: 100px;
+    width: 90px;
     height: 100px;
     border-left: 3px solid black;
     position: relative;
@@ -238,7 +242,7 @@
 }
 .characterm1 {
     width: 1px;
-    height: 51px;
+    height: 45px;
     border-left: 3px solid black;
     transform: skew(-40deg);
     -webkit-transform: skew(-44deg);
@@ -249,14 +253,14 @@
 }
 .characterm2 {
     width: 1px;
-    height: 52px;
+    height: 45px;
     border-left: 3px solid black;
     transform: skew(-40deg);
     -webkit-transform: skew(44deg);
     -moz-transform: skew(-40deg);
     -o-transform: skew(-40deg);
     position: relative;
-    left: -78px;
+    left: -72px;
 }
 
 .charactern1 {
@@ -264,15 +268,15 @@
     height: 100px;
     border-left: 3px solid black;
     transform: skew(-44deg);
-    -webkit-transform: skew(44deg);
+    -webkit-transform: skew(41deg);
     -moz-transform: skew(-44deg);
     -o-transform: skew(-44deg);
     position: relative;
-    left: -52px;
+    left: -47px;
 }
 .charactero {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border: 3px solid black;
     border-radius: 50px;
 }
@@ -281,18 +285,20 @@
     height: 50px;
     border: 3px solid black;
     border-radius: 0px 50px 50px 0px;
+    position: relative;
+    left: 15px;
 }
 .characterp1 {
-    width: 30px;
+    width: 32px;
     height: 50px;
     border-left: 3px solid black;
     position: relative;
     top: 46px;
-    left: -40px;
+    left: -25px;
 }
 .characterq {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border: 3px solid black;
     border-radius: 50px;
 }
@@ -302,8 +308,8 @@
     border-left: 3px solid black;
     transform: skew(45deg);
     position: relative;
-    top: 68px;
-    left: -32px;
+    top: -25px;
+    left: 70px;
 }
 .characterr2 {
     width: 17px;
@@ -319,65 +325,36 @@
 
 .characters {
     position: relative;
-    width: 220px;
-    height: 100px;
-    float: left;
-    transform: rotate(90deg);
-}
-
-.characters:before,
-.characters:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 60px;
-    height: 60px;
+    height: 50px;
+    border-radius: 50px 50px 0px 50px;
     border: 3px solid black;
-    -moz-border-radius: 50px 50px 0 50px;
-    border-radius: 50px 50px 0 50px;
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
+    border-bottom: 0;
+    border-right: 0;
 }
 
-.characters:after {
-    left: 120px;
-    right: 52px;
-    -moz-border-radius: 50px 50px 50px 0;
-    border-radius: 50px 50px 50px 0;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    border-left: 0px solid;
-    border-bottom: 0px solid;
-    border-left: 3px solid black;
+.characters1 {
+    width: 3px;
+    height: 15px;
+    border: 3px solid black;
+    border-right: 0;
     position: absolute;
+    left: 42px;
+    top: 53px;
+    border-top: 0;
+    transform: skew(71deg);
 }
-
-.infinity:before {
-    -moz-border-radius: 50px 50px 50px 0;
-    border-radius: 50px 50px 50px 0;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-    border-left: 0px solid;
-    border-bottom: 0px solid;
-    /* border-bottom: 3px solid black; */
-    /* border-top: 3px solid black; */
-    border-left: 3px solid black;
-    /* border-right: 3px solid black; */
-    top: -15px;
-    left: 38px;
-    transform: rotate(240deg);
+.characters2 {
+    position: relative;
+    width: 60px;
+    height: 46px;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px solid black;
+    border-left: 0;
+    left: 0;
+    top: 5px;
+    border-top: 0;
 }
-
-
 
 .charactert {
     width: 100px;
@@ -494,13 +471,7 @@
     position: relative;
     left: -30px;
 }
-.y,.x,.w {
-    width: 135px;
-    display: block;
-    overflow: hidden;
-    float: left;
-    height: 100px;
-}
+
 .characterz {
     width: 100px;
     height: 100px;
@@ -540,13 +511,23 @@
 }
 .characterw2 {
     width: 1px;
-    height: 70px;
+    height: 62px;
     border-left: 3px solid black;
     transform: skew(-40deg);
     -webkit-transform: skew(44deg);
     -moz-transform: skew(-40deg);
     -o-transform: skew(-40deg);
     position: relative;
-    top: 48px;
+    top: -39px;
     left: -22px;
+}
+/*.j,.k,.l,*/
+/*.r,.t,.u, .v,*/
+.a,.b,.c,.d,.e,.f,.g,.h,.i,.m,.n,.o,.p,.q,.s,
+.w,.x,.y,.z {
+    width: 105px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    height: 100px;
 }
